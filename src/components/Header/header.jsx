@@ -16,20 +16,20 @@ export default function header(){
             </section>
             <nav className={S.boxMenu}>
                 <ul>
-                    <li><Link to="/Inicio">Inicio</Link></li>
+                    <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/Doados">Livros doados</Link></li>
                     <li><Link to="/QueroDoar">Quero doar</Link></li>
                 </ul>
             </nav>
             <div className={S.boxInput}>
             <input type="text" placeholder="O que você procura?"/>
-            <img src={busca} alt="Lupa"></img>
+            <img src={busca} alt="Lupa"/>
             </div>
         </header>
         <Routes>
-        <Route path='Inicio/' element={<Inicio/>}/>
-        <Route path='Doados/' element={<Doados/>}/>
-        <Route path='QueroDoar/' element={<QueroDoar/>}/>
+        <Route path='/' element={<Inicio/>}/>
+        <Route path='/Doados' element={<Doados/>}/>
+        <Route path='/QueroDoar' element={<QueroDoar/>}/>
         </Routes>
         </BrowserRouter>
     )

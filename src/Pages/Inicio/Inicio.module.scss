@@ -1,5 +1,54 @@
 .banner{
     background-image: url('../../assets/banner.png');
     background-repeat: no-repeat;
+    background-size: contain;
     height: 88vh;
+    display: flex;
+    align-items: center;
+}
+h2{
+    color: white;
+    margin-left: 150px;
+font-size: 40px;
+width: 27vw;
+}
+
+.devoDoar{
+    height: 80vh;
+    div{
+
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        h2{
+            font-size: 30px;
+            margin-left: 60px;
+            color: rgba(0, 86, 149, 1);
+        }
+    }
+}
+
+.boxCard{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    article{
+
+        width: 20%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgba(1, 87, 148, 0.3);
+        border-radius: 10px;
+        p{
+            text-align: center;
+            width: 70%;
+            font-size: 20px;
+            
+
+        }
+        }
 }
