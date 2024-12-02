@@ -12,13 +12,13 @@ export default function header(){
     <header>
             <section className={S.boxLogo}>
             <img src={Logo} alt="Imagem de um livro"></img>
-            <h1>Livros vai na web!</h1>
+            <h1>Livros Vai na Web</h1>
             </section>
             <nav className={S.boxMenu}>
                 <ul>
                     <li><Link to="/">Inicio</Link></li>
-                    <li><Link to="/Doados">Livros doados</Link></li>
-                    <li><Link to="/QueroDoar">Quero doar</Link></li>
+                    <li><Link to="/Doados">Livros Doados</Link></li>
+                    <li><Link to="/QueroDoar">Quero Doar</Link></li>
                 </ul>
             </nav>
             <div className={S.boxInput}>

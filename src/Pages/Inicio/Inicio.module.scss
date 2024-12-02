@@ -5,22 +5,23 @@
     height: 88vh;
     display: flex;
     align-items: center;
-}
-h2{
-    color: white;
-    margin-left: 150px;
-font-size: 40px;
-width: 27vw;
+    h2{
+        color: white;
+        margin-left: 150px;
+    font-size: 40px;
+    width: 27vw;
+    }
 }
 
 .devoDoar{
     height: 80vh;
     div{
-
+border: solid 2px red;
         height: 15vh;
         display: flex;
         align-items: center;
         h2{
+        
             font-size: 30px;
             margin-left: 60px;
             color: rgba(0, 86, 149, 1);
@@ -51,4 +52,15 @@ width: 27vw;
 
         }
         }
+}
+
+@media(max-width: 1260px){
+    .banner{
+        background-size: cover;
+    }
+}
+@media(max-width: 920px){
+    .banner{
+        background-image: url("../../assets/bannerdois.png");
+    }
 }
