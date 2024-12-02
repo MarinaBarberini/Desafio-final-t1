@@ -2,7 +2,7 @@ import Logo from "../../assets/logo.png"
 import busca from "../../assets/busca.png"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Doados from '../../Pages/Doados/Doados'
-import Inicio from '../../Pages/Inicio/Inicio'
+
 import QueroDoar from '../../Pages/QueroDoar/QueroDoar'
 import S from "./header.module.scss"
  
@@ -16,7 +16,6 @@ export default function header(){
             </section>
             <nav className={S.boxMenu}>
                 <ul>
-                    <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/Doados">Livros Doados</Link></li>
                     <li><Link to="/QueroDoar">Quero Doar</Link></li>
                 </ul>
@@ -27,7 +26,6 @@ export default function header(){
             </div>
         </header>
         <Routes>
-        <Route path='/' element={<Inicio/>}/>
         <Route path='/Doados' element={<Doados/>}/>
         <Route path='/QueroDoar' element={<QueroDoar/>}/>
         </Routes>
