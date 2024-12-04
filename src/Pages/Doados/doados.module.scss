@@ -1,9 +1,9 @@
 .boxDoados{
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .boxCard{
@@ -11,12 +11,16 @@
     height: 60vh;
     article{
         border: solid 2px #005695;
-        width: 20vw;
-        height: 40vh;
+        width: 230px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         border-radius: 15px;
     }
+}
+
+@media(max-width: 760px){
+
 }

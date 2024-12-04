@@ -9,7 +9,7 @@
         color: white;
         margin-left: 150px;
     font-size: 40px;
-    width: 27vw;
+    width: 30vw;
     }
 }
 
@@ -20,7 +20,6 @@
         display: flex;
         align-items: center;
         h2{
-        
             font-size: 30px;
             margin-left: 60px;
             color: rgba(0, 86, 149, 1);
@@ -46,7 +45,7 @@
         p{
             text-align: center;
             width: 70%;
-            font-size: 20px;
+            font-size: 18px;
             
 
         }
@@ -57,9 +56,78 @@
     .banner{
         background-size: cover;
     }
+    .boxCard{
+        article{
+            p{
+                font-size: 1.4vw;
+            }
+            img{
+                width: 7vw;
+            }
+        }
+    }
 }
-@media(max-width: 920px){
+
+@media(max-width: 960px){
     .banner{
-        background-image: url("../../assets/bannerdois.png");
+        background-position: center;
+    }
+    .boxCard{
+        article{
+            width: 22%;
+            p{
+                font-size: 1.7vw;
+            }
+            img{
+                width: 7vw;
+            }
+        }
+    }
+}
+
+
+@media(max-width: 760px){
+    .banner{
+        justify-content: center;
+        h2{
+            width: 80%;
+            margin-left: 0;
+        }
+    }
+    .devoDoar{
+        height: auto;
+        div{
+            justify-content: center;
+            h2{
+                margin-left: 0;
+            }
+        }
+    }
+    .boxCard{
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 90vh;
+        article{
+            height: 38vh;
+            width: 230px;
+            p{
+                font-size: 15px;
+            }
+            img{
+                width: 12vw;
+            }
+        }
+    }
+}
+
+@media(max-width: 476px){
+    .boxCard{
+        height: auto;
+        margin-bottom: 10px;
+    article{
+        img{
+            width: 18vw;
+        }
+    }
     }
 }
