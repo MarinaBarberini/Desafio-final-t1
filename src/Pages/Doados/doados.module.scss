@@ -1,14 +1,23 @@
 .boxDoados{
-    height: 70vh;
+    min-width: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    h2{
+        padding-top: 30px;
+        height: 100px;
+    }
+
 }
 
-.boxCard{
+.boxBooks{
     width: 85vw;
-    height: 60vh;
+    min-height: 60vh;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
     article{
         border: solid 2px #005695;
         width: 230px;
@@ -19,6 +28,7 @@
         justify-content: space-evenly;
         border-radius: 15px;
     }
+    
 }
 
 @media(max-width: 760px){
